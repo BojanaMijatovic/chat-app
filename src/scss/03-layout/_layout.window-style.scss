@@ -1,0 +1,17 @@
+body {
+  overflow-x: hidden;
+}
+
+.chat-layout {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+
+  &__people {
+    flex: 0 0 30%;
+  }
+
+  &__message {
+    flex: 1 0 50%;
+  }
+}

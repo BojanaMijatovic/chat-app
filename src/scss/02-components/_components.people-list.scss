@@ -1,0 +1,10 @@
+.people-list {
+  padding: 20px;
+  background-color: $brand-pastel-green;
+
+  &__wrapper {
+    position: sticky;
+    top: 20px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+.person {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    background-color: $brand-pastel-dark-green;
+  }
+
+  &.active {
+    background-color: $brand-pastel-grey;
+  }
+
+  &__avatar {
+    flex: 0 0 80px;
+    height: 60px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
